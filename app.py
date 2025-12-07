@@ -76,8 +76,6 @@ st.markdown("---")
 # 4. LOGIKA AGENT
 # -----------------------------------------------------
 
-agent_executor = st.session_state.agent
-
 # Pesan Sambutan (Greeting)
 if "messages" not in st.session_state:
     st.session_state.messages = [
