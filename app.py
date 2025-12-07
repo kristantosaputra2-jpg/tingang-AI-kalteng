@@ -1,5 +1,4 @@
 import streamlit as st
-from bot import build_agent
 from langchain_core.messages import AIMessage
 
 # -----------------------------------------------------
