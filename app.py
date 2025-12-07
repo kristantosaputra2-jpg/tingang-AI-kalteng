@@ -76,8 +76,6 @@ st.markdown("---")
 # 4. LOGIKA AGENT
 # -----------------------------------------------------
 
-if "agent" not in st.session_state:
-    
 agent_executor = st.session_state.agent
 
 # Pesan Sambutan (Greeting)
