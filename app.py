@@ -1,5 +1,8 @@
+%%writefile app.py
+
+# Import semuanya dulu
 import streamlit as st
-from langchain_core.messages import AIMessage
+from bot import build_agent
 
 # -----------------------------------------------------
 # 1. KONFIGURASI & ASET GAMBAR
