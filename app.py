@@ -77,7 +77,6 @@ st.markdown("---")
 # -----------------------------------------------------
 
 if "agent" not in st.session_state:
-    st.session_state.agent = build_agent()
     
 agent_executor = st.session_state.agent
 
